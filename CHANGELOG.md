@@ -1,0 +1,16 @@
+# Changelog
+
+All notable changes to `ichava/icon-sets-material-symbols` follow [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and [Semantic Versioning](https://semver.org/).
+
+## [Unreleased]
+
+## [0.1.0] - TBD
+
+First release of `ichava/icon-sets-material-symbols` (pack plan rank, owner decision of 2026-11-04 to ship every planned pack in v0.1.0).
+
+### Added
+
+- **23,640 Material Symbols SVGs** from the `@material-symbols/svg-400` npm package (marella/material-symbols `v0.48.3`), which republishes the SVGs of google/material-design-icons, in 6 variants: `outlined` (3,940), `outlined-fill` (3,940), `rounded` (3,940), `rounded-fill` (3,940), `sharp` (3,940), `sharp-fill` (3,940). Every file went through icon-sets-sync's SVG sanitiser.
+- **A size policy.** Weight 400 only, in all three styles, filled and unfilled. The other six weights (100, 200, 300, 500, 600, 700) are not vendored: they would add 141,861 files. Upstream names use underscores and are slugged to hyphens (`bullet_chart` is `bullet-chart`). Before the subset: 165,501 files, 120.6 MB unpacked (all seven weights, 100 to 700, of 0.48.3). After: 23,640 SVGs, 13.1 MB of SVG bytes, 92 MB on disk (weight 400 only).
+- **Licensing kept apart.** `LICENSE` is the MIT licence for the package code; the icons are Apache-2.0, with the upstream text at `resources/assets/svg/licenses/material-symbols/LICENSE`, a `NOTICE` beside it, and the notice in `ATTRIBUTION.md`. `config.json` records the licence's SPDX id, SHA-256 and the date it was checked, and `AttributionTest` fails if the shipped text stops matching that hash.
+- **Tests:** the provider boots and registers the pack; the variant counts, the `Variant` enum and the SVG kind are pinned; no SVG carries stray text; and the sibling, attribution, docs-shape, personal-contact, PHPStan-level, release-version, workflow-permission and sync-caller guards the other packs carry.
