@@ -92,6 +92,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Report vulnerabilities privately through
 
 ## License
 
-Two licences apply, split by file. The package code is **MIT**, © Simtabi LLC, and the root [LICENSE](LICENSE) is that MIT text. The icons are [Material Symbols](https://fonts.google.com/icons), © Google LLC (artwork) and the material-symbols contributors (packaging), under the **Apache License 2.0**; its text is `resources/assets/svg/licenses/material-symbols/LICENSE`, beside a `NOTICE` that says how the files were changed.
+Two licences apply, split by file. The package code is **MIT**, © Simtabi LLC, and the root [LICENSE](LICENSE) is that MIT text. The icons are [Material Symbols](https://fonts.google.com/icons), © Google LLC (artwork) and the material-symbols contributors (packaging), under the **Apache License 2.0**; its text is `resources/assets/svg/licenses/material-symbols/LICENSE`, and a `NOTICE` that says how the files were changed is `resources/assets/svg/NOTICE`.
 
 Simtabi LLC claims no authorship of the icons. The terms, what was changed and the credit line are in [ATTRIBUTION.md](ATTRIBUTION.md), which ships with the package and must accompany any copy of the icons.
