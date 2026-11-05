@@ -26,7 +26,7 @@ The licence asks that modified files say so (Apache-2.0 section 4(b)). Simtabi L
 - files were renamed and moved into one directory per variant;
 - only part of the upstream set is included (below).
 
-The same statement ships as [`resources/assets/svg/licenses/material-symbols/NOTICE`](resources/assets/svg/licenses/material-symbols/NOTICE). Upstream ships no `NOTICE` file at this version (checked 2026-11-04: marella/material-symbols@v0.48.3/NOTICE (404); google/material-design-icons@master/NOTICE (404)), so there is no upstream notice to carry.
+The same statement ships as [`resources/assets/svg/NOTICE`](resources/assets/svg/NOTICE). Upstream ships no `NOTICE` file at this version (checked 2026-11-04: marella/material-symbols@v0.48.3/NOTICE (404); google/material-design-icons@master/NOTICE (404)), so there is no upstream notice to carry. It sits outside `licenses/material-symbols/`, which icon-sets-sync replaces with upstream's own licence files on every sync.
 
 ### What is included
 

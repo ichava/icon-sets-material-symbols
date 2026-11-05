@@ -4,7 +4,7 @@ Material Symbols
 This directory holds icons from Material Symbols (https://github.com/marella/material-symbols),
 version 0.48.3 of the npm package @material-symbols/svg-400 (upstream ref v0.48.3).
 Copyright Google LLC (artwork) and the material-symbols contributors (packaging). Licensed under the Apache License, Version 2.0; the
-licence text is the LICENSE file beside this one.
+licence text is licenses/material-symbols/LICENSE, under this directory.
 
 Upstream ships no NOTICE file at that ref. Checked 2026-11-04:
   - marella/material-symbols@v0.48.3/NOTICE (404)
