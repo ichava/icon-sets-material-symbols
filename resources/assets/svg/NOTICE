@@ -1,0 +1,22 @@
+Material Symbols
+================
+
+This directory holds icons from Material Symbols (https://github.com/marella/material-symbols),
+version 0.48.3 of the npm package @material-symbols/svg-400 (upstream ref v0.48.3).
+Copyright Google LLC (artwork) and the material-symbols contributors (packaging). Licensed under the Apache License, Version 2.0; the
+licence text is licenses/material-symbols/LICENSE, under this directory.
+
+Upstream ships no NOTICE file at that ref. Checked 2026-11-04:
+  - marella/material-symbols@v0.48.3/NOTICE (404)
+  - google/material-design-icons@master/NOTICE (404)
+
+Changes made by Simtabi LLC when the files were vendored into
+ichava/icon-sets-material-symbols (Apache-2.0 section 4(b)):
+
+  - Every SVG was passed through the icon-sets-sync SVG sanitiser (policy v2),
+    which removes elements and attributes outside its allow list.
+  - Files were renamed and moved into one directory per variant, as described
+    in ATTRIBUTION.md and docs/architecture.md.
+  - Only a subset of the upstream files is included (see ATTRIBUTION.md).
+
+The drawings themselves were not edited.
